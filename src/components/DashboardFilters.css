@@ -1,0 +1,45 @@
+/* Accordion animation */
+.accordion-animation-enter {
+  max-height: 0;
+  opacity: 0;
+}
+
+.accordion-animation-enter-active {
+  max-height: 1000px;
+  opacity: 1;
+  transition: max-height 300ms ease-in, opacity 300ms ease-in;
+}
+
+.accordion-animation-exit {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.accordion-animation-exit-active {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 300ms ease-out, opacity 300ms ease-out;
+}
+
+/* Badge animation */
+.badge-animation-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.badge-animation-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.badge-animation-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.badge-animation-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
