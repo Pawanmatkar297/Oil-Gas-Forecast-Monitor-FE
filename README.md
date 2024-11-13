@@ -61,10 +61,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - React.js Community
 - D3.js Community
-<<<<<<< HEAD
-- Blackcoffer Team-1
-=======
->>>>>>> 3ac431e962938168745a96d250f7bb3d77c7032e
+
 
 ## 📞 Support
 
